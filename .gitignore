@@ -1,0 +1,7 @@
+/vendor/
+.settings
+.buildpath
+.project
+composer.phar
+.vscode
+.idea

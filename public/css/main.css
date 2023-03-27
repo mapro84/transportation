@@ -1,0 +1,87 @@
+  .navbar-brand img{
+    height: 40px;
+    margin: 0 15px 20px 15px;
+  }
+
+  .icon-link img{
+    height: 40px;
+  }
+
+  .demoTitle{
+    background-color: #68c6cb;
+    font-weight: bold;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin: 0 20px 0 10px;
+    font-size: 16px;
+  }
+
+  .demoBody{
+    background-color: #6bcead;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 5px 5px;
+  }
+
+  .demoResult{
+    background-color: #72dbe9;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 3px 10px;
+    margin: 0 0 10px 15px;
+  }
+
+  .demoComment{
+    background-color: #acc552;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 0 0 10px 15px;
+  }
+
+  .demoCode{
+    background-color: #c5c0c0;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 20px;
+  }
+
+  a { text-decoration: none !important; }
+
+  .invisible{
+    display: none;
+  }
+  .spinner-border {
+    font-size: 40px;
+    border-top: .8em solid rgba(218, 219, 223, 1);
+    border-right: .8em solid rgba(218, 219, 223, 1);
+    border-bottom: .8em solid rgba(218, 219, 223, 1);
+    border-left: .8em solid rgba(58, 166, 165, 1);
+  }
+
+  .form-inline{
+    display: inline;
+  }
+
+  .text-row{
+    margin-left: 15px;
+    font-size: 18px;
+  }
+
+  .subtitle{
+    color: rgb(10, 10, 229);
+  }
+
+  .hidden{
+    display: none;
+  }
+
+  .logo{
+    height: 40px;
+    margin-right: 20px;
+  }
+
+  img[alt]{
+    color: blue;
+  }
