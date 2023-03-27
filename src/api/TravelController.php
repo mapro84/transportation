@@ -9,7 +9,7 @@ class TravelController
         return $this->getTravelByCards($params);
     }
 
-    public function getTravelByCards($data): array
+    public function getTravelByCards($data): string
     {
         $boardingCards = explode(';',$data);
         // Define an empty array to hold the sorted boarding cards
@@ -58,7 +58,7 @@ class TravelController
         }
         $sortedCards[] = 'You have arrived at your final destination.';
 
-        return $sortedCards;
+        return json_encode($sortedCards);
     }
 
     public function extractPoints($card)
