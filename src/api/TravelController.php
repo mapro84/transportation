@@ -50,7 +50,7 @@ class TravelController
             $lastCard = end($sortedCards);
             foreach ($boardingCards as $key => $card) {
                 if (str_contains($card, $this->extractPoints($lastCard)["end"])) {
-                    $sortedCards[] = $card;
+                    $sortedCards[] = ltrim($card,' ');
                     unset($boardingCards[$key]);
                     break;
                 }
